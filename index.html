@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap" rel="stylesheet" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="assest/css/style.css" />
     <style>
+      h1,
+      h2 {
+        font-family: "Oswald", sans-serif;
+      }
       header {
         text-align: center;
       }
@@ -29,15 +37,15 @@
         margin-top: 2px;
       }
       .ingredient {
-        padding-top: 60px;
-        margin-top: 50px;
+        padding-top: 10px;
+        margin-top: 10px;
         padding-inline-start: 10px;
         border-top: 1px solid rgba(0, 213, 255, 0.871);
         margin-bottom: 60px;
       }
       .method {
-        padding-top: 30px;
-        margin-top: 50px;
+        padding-top: 10px;
+        margin-top: 10px;
         padding-inline-end: 10px;
         border-top: 1px solid rgba(0, 213, 255, 0.871);
       }
@@ -47,7 +55,12 @@
       .feat {
         padding-left: 5px;
 
+        margin-bottom: 60px;
+
         border-left: 1px solid rgba(255, 111, 8, 0.871);
+      }
+      .topping {
+        margin-bottom: 20px;
       }
     </style>
   </head>
@@ -69,7 +82,13 @@
         Wow your taste buds with this festive appetizer topped with sweet caramelized onions, tart cranberries and
         creamy brie. It will become your new favorite holiday starter!
       </p>
-      <img src="./assest/img/focaccia.png" />
+      <video
+        src="./assest/img/ricetta.mp4"
+        width="700"
+        height="auto"
+        controls
+        poster="./assest/img/focaccia.png"
+      ></video>
       <div class="sally">
         <p><span style="color: rgb(127, 127, 128)"> Image: Sally vegas </span></p>
       </div>
@@ -77,8 +96,10 @@
         <p><span style="color: rgb(245, 128, 4)"> FEAUTURED IN</span></p>
         <a href="#"> Fresh Cranberry Recipies That go Beyond Sauce</a>
       </div>
+
+      <h2>INGREDIENTS</h2>
+
       <section class="ingredient">
-        <h2>INGREDIENTS</h2>
         <b> For the focaccia</b>
         <ul>
           <li>4 cups (500) all-purpose floor</li>
